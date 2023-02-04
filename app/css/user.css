@@ -1,0 +1,42 @@
+@charset "euc-kr";
+/* CSS Document */
+
+
+/* 메인화면 타이틀 텍스트 및 라인 컬러 */
+.h_area{border-top-color:#000}/* 타이틀바 라인색 */
+.h_area{background:#f8f8f8}/* 타이틀바 배경 */
+.h_area h3{color:#000}/* 타이틀바 폰트색 */
+
+/* 상품명, 상품가격 텍스트 컬러 */
+.pr_name{color:#444}/* 상품명 */
+.pr_price{color:#000}/* 상품가격 */
+
+/* 페이지 네비게이션 active 컬러 */
+.pg_num_area3 .pg_num_on{color:#000; border-color:#000}
+
+/* 검색바 라인 컬러, 버튼 컬러 */
+.search .search_wrap{border-color:#7c8496}/* 검색바 테두리색 */
+@media screen and (-webkit-min-device-pixel-ratio:2),screen and (-webkit-min-device-pixel-ratio:1.5){
+.search .btn_search{background:#272727}/* 검색버튼 기본바탕색 */
+.search .btn_search{background:-webkit-gradient(linear, 0% 0%, 0% 84%, from(#4d4d4d), to(#272727))}/* 검색버튼 그라데이션 색(상단->하단 순서) */
+.search .btn_search{border-color:#3a3a3a}/* 검색버튼 테두리색 */
+.search .btn_search span{color:#fff}/* 검색버튼 폰트색 */
+
+/* 서브화면 타이틀 텍스트 및 라인 컬러 */
+.h_area2{border-top-color:#000}/* 타이틀바 라인색 */
+.h_area2 h2{color:#000}
+
+/* 상세페이지 하단 버튼 컬러 */
+.basic_btn{background:#fff}/* 기본버튼 배경색 */
+.basic_btn{border-color:#c3c3c3}/* 기본버튼 테두리색 */
+.basic_btn span{color:#000}/* 기본버튼 폰트색 */
+.basic_btn.c1{background:#000; background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#363636), color-stop(42%,#363636), color-stop(42%,#000000), color-stop(100%,#000000)); background: -webkit-linear-gradient(-45deg, #363636 0%,#363636 42%,#000000 42%,#000000 100%)}/* 포인트버튼 배경색 */
+.basic_btn.c1{border-color:#000}/* 포인트버튼 테두리색 */
+.basic_btn.c1 span{color:#fff}/* 포인트버튼 폰트색 */
+
+/* 탭UI 라인 컬러 */
+.tab_area,
+.tab_area li,
+.tab_area li.active{border-color:#4d4d4d}
+	
+	

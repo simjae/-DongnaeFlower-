@@ -1,0 +1,324 @@
+@CHARSET "EUC-KR";
+
+body{
+	font-family:나눔고딕, Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	background: #def2f3;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;	
+}
+
+/* Header */
+/* 헤더 */
+.header{
+	
+}
+
+/* 제목 Bar - 제목, 종료, 도움말 버튼 등 */
+.TitleBar{height:45px; background-image:url(../images/top_bg.jpg); font-size:17px; color:#fff; font-weight:bold;}
+.TitleBar .left label{float:left; padding:11px 0 0 3px;}
+.TitleBar .left img{float:left; padding:13px 0 0 14px;}
+.TitleBar .center{float:left; padding:14px 0 0 11px;}
+.TitleBar .right{float:right; padding:12px 12px 0 0;}
+
+/* 제목 Bar - 다른 결제수단으로 이동하는 메뉴 */
+.chgMethod{
+	z-index:9999; 
+	left: 120px;
+	margin: 2px 0px 0px;
+	position: absolute;
+	width: 150px;
+	top:35px;
+}
+.chgMethod ul{
+	background: white;
+	border: 0px;
+	border-top: 0px;
+	margin: 0px;
+	padding: 1px;
+}
+.chgMethod li{
+	border: 0px;
+	clear: both;
+	display: block;
+	float: none;
+	margin: 0px;
+	width: 100%;
+	background:#3EA7DE;
+}
+.chgMethod li a{ 
+	background-image: none !important;
+	clear: both;
+	display: block;
+	filter: none;
+	float: none;
+	margin: 0px;
+	padding: 0px !important;
+	width: 100%;
+}
+.chgMethod li a span{
+	border: 0px;
+	color: #767676;
+	display: block;
+	font-weight: normal;
+	height: auto;
+	padding: 5px 20px;
+}
+.chgMethod li a:hover,
+.chgMethod li a:active,
+.chgMethod li a:focus{background:#266687;}
+
+/* 메뉴 탭 */
+.MenuTab{
+	height:32px;
+	background-color:#374c83;
+}
+.MenuTab ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.MenuTab ul li a{
+	float:left;
+	text-decoration:none !important; cursor:pointer; 
+	width:106px; height:23px; padding-top:9px;
+	background-image: url(../images/tab.jpg);
+	background-position: left top;
+	color:#404040;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+.MenuTab ul li a:hover,
+.MenuTab ul li a:active,
+.MenuTab ul li a:focus{   
+	background-image: url(../images/tab.jpg);
+	background-repeat: no-repeat;
+	background-position: right top; 
+	color:#FFFFFF;
+}
+
+
+/* Main Container */
+/* 컨테이너 */
+.container{
+	padding:7px 15px;
+}
+
+/* 상품정보 */
+.GoodsBar{
+	height:16px;
+	margin-bottom:7px;
+	padding:9px 14px;
+	position:relative;
+	background:#374c83;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+}
+.GoodsBar div{
+	width:33.3%;
+	float:left;
+	font-size:13px;
+	color:#E5E5ED;
+	text-align:center;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 	
+	position:relative;
+}
+
+/* 흰박스 */
+.main{
+	padding:9px 8px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;	
+	background:#fff;
+}
+
+/* 하단버튼 */
+.btn{height:34px; padding-top:4px;}
+.btn .left{float:left; padding-left:5px;}
+.btn .right{float:right; padding-right:5px;}
+
+/* 리스트에서 페이징 처리하는 클래스 */
+.PagingBar {height:16px; padding:13px 0px 0px 0px; text-align:center; font-size:14px; font-weight:bold;}
+.PagingBar a {padding:4px 8px; margin-top:7px; text-decoration:none; font-weight:bold; border:1px solid #8d98b5;}
+.PagingBar a.number {border-color:#8d98b5;color:#000000;}
+.PagingBar a.ON {background-color:#374c83;border-color:#374c83;color:#ffffff;}
+.PagingBar a.go {border:none;}
+.PagingBar a.go img {margin-top:-5px; margin-bottom:-8px;}
+
+.scwHeadLeft {background-image:url(../images/btn_page_back.png);}
+.scwHeadRight {background-image:url(../images/btn_page_next.png);}
+.scwHeadClose {background-image:url(../images/btn_close.png);}
+
+/* Footer */
+/* 고객센터 및 로고 */
+.footer{height:28px; margin-top:5px;}
+.footer .left{float:left; margin-left:9px;}
+.footer .right{float:right; margin-right:9px;}
+
+
+/* Main Container 나머지 Components */
+/* 목록 정보 - info / info2 는 배경색상만 다름 */
+.info{
+	padding:5px 10px;
+	background:#fff;
+}
+.info2{
+	padding:5px 10px;
+	background:#dde9f4;
+}
+.info span, .info2 span{  
+	width:30%;
+	font-size:13px;
+	padding: 5px 10px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 	
+	resize:horizontal;
+	position:relative;
+}
+.info div, .info2 div{
+	width:33.3%;
+	float:left;
+	font-size:13px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 	
+	position:relative;
+}
+
+/* 목록 중 선택하는 Bar */
+.selectBar{
+	padding:6px 3px;
+}
+.selectBar label{
+	font-size:14px;
+	padding:3px;
+	color:#374c83;
+	font-weight:bold;
+}
+.selectBar span{
+	font-size:14px;
+	padding:3px;
+}
+.selectBar input{
+	font-family: 나눔고딕, Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	padding:6px;
+	margin:0px;
+	text-align:left;
+	border:1px solid #ccc;
+	/* 테두리 곡선처리 관련 */
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	background:#EEEEEE;
+	/* 그림자 */
+	box-shadow:inset 0 0 5px #ccc; 
+	-moz-box-shadow:inset 0 0 5px #ccc; 
+	-webkit-box-shadow:inset 0 0 5px #ccc;
+}
+.selectBar .listInput{
+	width:90px;
+	text-align:left;
+}
+.selectBar img{
+	float:right;
+	padding:0;
+	margin:0;
+}
+
+/* 펼쳐지고 접혀지는 목록 전체 : selectList */
+.selectList ul{
+	list-style:none;
+	margin:0; 
+	padding:0; 
+}
+.selectList .blank{
+	
+}
+
+/* 접혀지는 리스트들 */
+.cardDisplay, .cardInstmn, .cardType, .cpcoDisplay, .methodDisplay, .bankDisplay, .receiptDisplay, buttonList{	
+	float:left;
+	width:100%;
+	margin-bottom:9px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	background:#dde9f4;
+}
+
+/* 버튼 모양의 리스트 */
+.Card, .Instmn, .selMethod, .Cell{
+	font-family: 나눔고딕, Tahoma, Geneva, sans-serif; 
+	float:left;
+	width:53px;
+	background-image : url(../images/btn0.png);
+	border:none;
+	margin:5px;
+	padding:2px;
+	padding-top:8px;
+	height:27px;
+	font-size:12px;
+	text-align:center;
+	cursor:pointer;
+	font-weight:bold;
+}
+.Receipt, .Bank{
+	font-family: 나눔고딕, Tahoma, Geneva, sans-serif; 
+	float:left;
+	width:114px;
+	background-image : url(../images/btn1.png);
+	border:none;
+	margin:5px;
+	padding-top:4px;
+	height:33px;
+	font-size:12px;
+	text-align:center;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+/* 버튼안에 들어가는 작은 글씨 */
+.small{font-size:11px;}
+
+/* 환경설정 중 소개부분 박스 디자인 */
+.helpBox{
+	padding:5px 10px;
+	margin-bottom:9px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	background:#dde9f4;
+}
+.helpBox label{
+	font-size:14px;
+	padding:3px;
+	color:#374c83;
+	font-weight:bold;
+}
+
+
+/* a태그 관련 */
+a			{text-decoration:none;}
+a:link		{color:#000; cursor:pointer;} 
+a:visited 	{color:#000; cursor:pointer;} 
+a:hover		{color:#c8c8c8; cursor:pointer;} 
+a:active	{color:#000; cursor:pointer;}

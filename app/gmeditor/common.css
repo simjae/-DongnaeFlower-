@@ -1,0 +1,50 @@
+@charset "euc-kr";
+html, body {margin:0; padding:0; font-size:12px; font:12px gulim,dotum,sans-serif; white-space:-moz-pre-wrap; word-break:break-all;}
+p {margin:0; padding:0;}
+img, form {border:0;}
+
+ul.ej-edt-menu {float:left; list-style:none; margin:3px 0 0; margin:3px 0\9; *margin:3px 0; padding:0;}
+ul.ej-edt-menu a.ej-edt-a1 {display:block; width:100%; height:20px; line-height:20px; padding:0 0 0 3px; color:#333; text-decoration:none;}
+ul.ej-edt-menu a.ej-edt-a1:link {padding:0 0 0 3px; color:#333;}
+ul.ej-edt-menu a.ej-edt-a1:visited {color:#333;}
+ul.ej-edt-menu a.ej-edt-a1:active {color:#000;}
+ul.ej-edt-menu a.ej-edt-a1:focus, 
+ul.ej-edt-menu a.ej-edt-a1:hover {color:#000; background:#e7e7e7;}
+ul.ej-edt-menu a.ej-edt-a2 {display:block; width:12px; height:12px; text-decoration:none;}
+ul.ej-edt-menu a.ej-edt-a2:focus, 
+ul.ej-edt-menu a.ej-edt-a2:hover {background-image:url('/button/btn_blank_ov.gif');}
+ul.ej-edt-menu a.ej-edt-tab {display:block; height:20px; line-height:20px; text-align:center; font-size:11px; color:#555; border:1px solid #ddd; margin:0 0 0 -1px; padding:0 3px; text-decoration:none;}
+ul.ej-edt-menu a.ej-edt-tab:focus, 
+ul.ej-edt-menu a.ej-edt-tab:hover {color:#fff; background:#555;}
+ul.ej-edt-menu a.on_active_tab {color:#fff; background:#555;}
+
+
+ul.ej-edt-menu a.ej-edt-a3 {display:block; width:25px; height:25px; line-height:25px; text-align:center; text-decoration:none;}
+ul.ej-edt-menu a.ej-edt-a4 {display:block; width:16px; height:16px; line-height:16px; text-align:center; font-size:12px; color:#555; text-decoration:none;}
+ul.ej-edt-menu a.ej-edt-a4:focus, 
+ul.ej-edt-menu a.ej-edt-a4:hover {color:#fff; background:#555;}
+.ej-edt-pop-wrap {margin:0 auto;}
+.ej-edt-pop-wrap fieldset {margin:5px; padding:5px; font-family:gulim,dotum,sans-serif; font-size:11px; border:none;}
+.ej-edt-pop-wrap fieldset legend {display:none;}
+.ej-edt-pop-wrap fieldset dl {clear:both; margin:0; padding:0; overflow:hidden;}
+.ej-edt-pop-wrap fieldset dl dt, 
+.ej-edt-pop-wrap fieldset dl dd {float:left;}
+.ej-edt-pop-wrap fieldset dl dt {margin:0; padding:0; width:50px; text-align:right; margin:0 5px 0 0; line-height:20px; font-weight:bold; overflow:hidden;}
+.ej-edt-pop-wrap fieldset dl dd {margin:0; padding:0;}
+.ej-edt-pop-wrap fieldset dl dd.once {width:160px;}
+.ej-edt-pop-wrap fieldset dl dd.u-once {width:180px;}
+.ej-edt-pop-wrap fieldset dl dd.double {width:65px;}
+.ej-edt-pop-wrap fieldset dl dd.upload {width:80px;}
+.ej-edt-pop-wrap fieldset dl dd input.ej-inp {height:14px; padding:2px 3px 0; font-family:gulim,dotum,sans-serif; font-size:11px; border:1px solid #ddd;}
+.ej-edt-pop-wrap fieldset dl dd input.ej-no-inp {height:14px; padding:2px 3px 0; font-family:gulim,dotum,sans-serif; font-size:12px; border:1px solid #ddd; background:#eee;}
+.ej-edt-pop-wrap fieldset dl dd input.short {width:35px;}
+.ej-edt-pop-wrap fieldset dl dd input.long {width:99%;}
+.ej-edt-pop-wrap fieldset dl dd select {height:18px; font-family:gulim,dotum,sans-serif; font-size:11px; border:1px solid #ddd;}
+
+.ej-edt-pop-wrap fieldset p.preview {float:left; width:80px; height:80px; text-align:center; line-height:80px; margin:3px 0 0 10px; padding:0; border:1px solid #ccc;}
+
+.ej-quote-div {height:20px; margin:3px;}
+.ej-quote-div a {display:block; width:100%; height:100%;}
+.ej-edt-btn_area {clear:both; margin:0 auto 5px; text-align:center; overflow:hidden;}
+.ej-edt-pop-btn {padding:3px 5px; font-family:gulim,dotum,sans-serif; font-size:12px;}
+.ej-editor-resize-bar {clear:both; height:12px; padding:0; overflow:hidden; border-top:0; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; cursor:s-resize; background:url("/button/resize_arrow.gif") no-repeat 50% 0 #f5f5f5;}

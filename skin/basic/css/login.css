@@ -1,0 +1,113 @@
+#login{
+	padding-top:0px;
+	padding-bottom: 30px;
+}
+#login .login_title{
+	position: relative;
+}
+#login .login_title h1{
+    font-size: 25px;
+}
+.login_back{
+	position: absolute;
+	left: 0;
+	top: -5px;
+	font-size: 24px;
+	line-height: 18px;
+	font-weight: lighter;
+}
+#login input[type='text'], #login input[type='tel'], #login input[type='number'], #login input[type='password']{
+background: #fff;
+    border: 1px solid #ebebeb;
+    line-height: 3em;
+    color: #848484;
+    font-size: 14px;
+    width: 100%;
+    -webkit-appearance: none;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: -0.5px;
+  border-radius: 2px 2px 0px 0px;
+}
+#login input+input{
+	margin-top: 0px;
+}
+#login .admissionNum{
+	font-size: 18px!important;
+	letter-spacing: 2px!important;
+	font-weight: 500!important;
+}
+#login .admissionNum.disabled{
+	cursor: default;
+    opacity: .45!important;
+    background: #EEEEEE!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    pointer-events: none!important;
+}
+#login .wrapper{padding:30px 15px 0px 15px }
+
+#login .wrapper .password{
+  border-radius:0px 0px 2px 2px;
+}
+
+#login .save_id{
+	margin: 13px 0px 25px;
+	display: block;
+	text-align: left;
+	font-size:1em;
+	letter-spacing:-1.5px;
+}
+#login .save_id input{
+	display:none;
+	background: #fff;
+	border: 1px solid #ebebeb;
+	line-height: 2em;
+	color: #848484;
+	border-radius: 0;
+	margin-right: 5px;
+}
+#login .save_id label{
+    background: url(/m/skin/modern/img/checkbox_off.png) no-repeat;
+    background-size: 17px auto;
+    background-position: 0% 50%;
+    padding: 1px 0px 1px 20px;}
+#login .save_id input:checked ~ label{background:url('/m/skin/modern/img/checkbox_on.png') no-repeat;background-size:17px auto;background-position:0% 50%;}
+#login .login_bt,
+#login .admissionBtn{
+	margin-top: 0px;
+	color: #fff;
+	background: #189151;
+	text-align: center;
+	font-size: 16px;
+	line-height: 3.5em;
+    border-radius:3px;
+}
+#login .admissionBtn:disabled,
+#login .disabled.admissionBtn{
+	cursor: default;
+    opacity: .45!important;
+    background-image: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    pointer-events: none!important;
+}
+#login .sns_login{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 30px;
+}
+#login .sns_login>li{
+	width: calc(100% / 3);
+	text-align: center;
+}
+#login .sns_login h1{
+	font-size: 21px;
+	margin-bottom: 5px;
+}
+
+#login .basic_btn_area{font-size:1em;letter-spacing:-1px;margin-top:20px;}
+#login .basic_btn_area span{padding:0px 5px;}
+#login .basic_btn_area a{padding:0px 8px;border:1px solid #eeeee;}

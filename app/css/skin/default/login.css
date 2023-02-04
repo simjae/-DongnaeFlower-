@@ -1,0 +1,75 @@
+#login{
+	color: #848484;
+	padding-top:40px;
+	padding-bottom: 60px;
+}
+#login .login_title{
+	position: relative;
+}
+#login .login_title h1{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.login_back{
+	position: absolute;
+	left: 0;
+	top: -5px;
+	font-size: 24px;
+	line-height: 18px;
+	font-weight: lighter;
+}
+#login input[type='text'], #login input[type='password']{
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	line-height: 2em;
+	color: #848484;
+	font-size: 16px;
+	width: 100%;
+	border-radius: 0;
+	-webkit-appearance:none;
+	padding-left: 15px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#login input+input{
+	margin-top: 10px;
+}
+#login .save_id{
+	margin: 20px 0px;
+	display: block;
+	text-align: left;
+	font-size:1.2em;
+}
+#login .save_id input{
+	display:none;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	line-height: 2em;
+	color: #848484;
+	border-radius: 0;
+	margin-right: 5px;
+}
+#login .save_id label{padding-left:22px;background:url('/m/images/skin/default/checkbox_off.png') no-repeat;background-size:17px auto;background-position:0% 50%;}
+#login .save_id input:checked ~ label{background:url('/m/images/skin/default/checkbox_on.png') no-repeat;background-size:17px auto;background-position:0% 50%;}
+#login .login_bt{
+	margin-top: 10px;
+	color: #fff;
+	background: #3a3a3a;
+	text-align: center;
+	font-size: 16px;
+	line-height: 5em;
+}
+#login .sns_login{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 30px;
+}
+#login .sns_login>li{
+	width: calc(100% / 3);
+	text-align: center;
+}
+#login .sns_login h1{
+	font-size: 21px;
+	margin-bottom: 5px;
+}
